@@ -1,0 +1,80 @@
+#box {
+	border: 1px solid #D3D3D3;
+	padding: 0;
+}
+.header { 
+	background-color: #B0C4DE;
+}
+#Title {
+	text-align: center;
+}
+#clear-btn{
+	position: relative;
+	float: right;
+}
+ul {
+    margin: 1rem 0 0 0;
+    padding: 0;
+}
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 6px 8px 6px 8px;
+    width: 100%;
+    background: #eee;
+    transition: 0.2s;
+        /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+ul li:nth-child(odd) {
+	background-color: #C0C0C0;
+}
+ul li:hover {
+	background-color: #708090;
+
+}
+ul li.checked {
+    background-color: #708090;
+    color: #000;
+    text-decoration: line-through;
+}
+
+/*label {
+	text-decoration: inherit;
+	height: 100%;
+	width: 97%;
+	font-size: 1rem;
+	margin-right: 0 !important;
+	position: relative;
+}
+*/
+.btns {
+	color: #000;
+}
+.btns:hover {
+	color: #fff;
+}
+.date{
+	position: absolute;
+    right: 3rem;
+    font-style: italic;
+    color: #A9A9A9;
+}
+.close {
+    position: absolute;
+    right: 1rem;
+    height: 50%;
+}
+#inputField {
+	margin-top: 1rem;
+}
+#new-btn {
+	display:block;
+	height: 100%;
+	width: 120px;
+	margin: 0 auto;
+}
